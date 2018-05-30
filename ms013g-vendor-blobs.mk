@@ -372,7 +372,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libAfSingle.so:system/lib/libAfSingle.so \
     $(LOCAL_PATH)/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     $(LOCAL_PATH)/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
-    $(LOCAL_PATH)/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so
+    $(LOCAL_PATH)/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so
 
 # WFD
 PRODUCT_COPY_FILES += \
